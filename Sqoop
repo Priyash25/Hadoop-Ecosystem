@@ -1,0 +1,8 @@
+1. Viewing the Databases in your MySQL Database 
+
+### Or you can use localhost instead of quickstart.cloudera (It is the connection string to your HDFS)
+
+sqoop list-databases \
+--connect jdbc:mysql://quickstart.cloudera:3306 \      
+--username retail_dba \
+--password cloudera
